@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="BMI Calculator"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/berat_badan"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints"
+       />
+
+    <TextView
+        android:layout_width="359dp"
+        android:layout_height="38dp"
+        android:background="@drawable/textview_border"
+        android:padding="10dp"
+        android:text="Masukan berat badan"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Tinggi badan"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="359dp"
+        android:layout_height="38dp"
+        android:background="@drawable/textview_border"
+        android:padding="10dp"
+        android:text="Masukan tinggi  badan"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="37dp"
+        android:background="@drawable/textview_border"
+        android:text="TOAST"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="37dp"
+        android:background="@drawable/textview_border"
+        android:text="COUNT"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <TextView
+        android:id="@+id/txt_number"
+        android:layout_width="347dp"
+        android:layout_height="300dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="256dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
